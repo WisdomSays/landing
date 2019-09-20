@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin:0;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
+    text-transform: capitalize';
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+main {
+    max-width:800px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0,0,0,0.07), -30px 0px 40px rgba(0,0,0,0.07) ;
+}
+
+#landing {
+    background: #fff;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#landing-text h2 {
+    color: #888;
+}
+
+.button {
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    text-decoration: none;
+    color: #777;
+    border-radius: 1rem;
+    display: inline-block;
+    margin: 2rem 0 0;
+    transition: background 500ms ease;
+}
+
+.button:hover {
+    background: #f4f4f4;
+}
+
+#landing-image {
+    background-image: url(../images/Landing-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+
+}
+
+#header h2 {
+    border-left: 1px #fff dotted;
+    border-right: 1px #fff dotted;
+    display: inline-block;
+    padding: 0 1rem 0;
+}
+
+#caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+footer {
+    padding: 2rem 1rem;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    background-color: #333;
+}
+
+footer h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+footer .button {
+    margin: 0.5rem;
+    color: #fff;
+}
+
+footer .button:hover {
+    color: #333;
+}
+
+#caption a {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 5rem;
+    border: none;
+    border-radius: 0;
+}
+
+#caption a:hover {
+    background-color: #888;
+}
+
+/* Screen Sizes 500px and up*/
+
+@media (min-width: 500px) {
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text {
+        height: 100vh;
+    }
+
+    #landing-image {
+        height: 100vh;
+    }
+}
